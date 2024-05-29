@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body {
+    background-color: rgb(153, 197, 226);
+}
+
+.navbar {
+    position: sticky;
+    height: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.navbar ul{
+  margin-top: 15px;
+  align-items: center;
+  list-style-type: none;
+  flex-direction: left;
+  padding-left: 730px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right:10px;
+    
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.navbar button:hover {
+    transform: translateY(-3px);
+}
+
+.one, .two, .three, .four, .five {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.one::before, .two::before, .three::before, .four::before, .five::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row1 .col-sm-4:hover {
+    transform: scale(1.05);
+}
+
+.row2 .col-sm-3:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    height: 200px;
+    text-align: center;
+    border: 10px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<img src="img/logo.jpg" style="height: 80px; width: 80px; padding-bottom: 5px; margin-left: 20px;">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#destination">Destinations</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+  <input placeholder="search">
+</div>
+<img src="img/landing.jpg" height="600px" width="100%">
+
+<div class="cantainer" id="destination">
+  <h1  style="padding-left: 400px;">Trending Destinations We Love</h1>
+  <p>most popular choices for travelers from  india.Travelling is an amazing way to learn a lot of things in life. A lot of people around the world travel every year to many places. Moreover, it is important to travel to humans.
+     Some travel to learn more while some travel to take a break from their life. No matter the reason, travelling opens a big door for us to explore the world beyond our imagination and indulge in many things. Therefore, 
+     through this Essay on Travel, we will go through everything that makes travelling great.
+  </p>
+<div class="row">
+<div class="col-sm-6 one" >
+  <img src="img/new delhi.jpg" style="height: 400px; width: 80%;padding-left: 30px;">
+  <h1>NEW DELHI</h1>
+</div>
+<div class="col-sm-6 two" >
+  ,<img src="img/Banglore.jpg" style="height: 400px; width: 80%;padding-left: 30px;">
+  <h1>BENGALURU</h1>
+</div>
+</div>
+</div>
+
+
+<div class="container" >
+<div class="row1"style="display: flex;">
+  <div class="col-sm-4 three" >
+    <img src="img/mumbai.jpg" style="height: 300px; width: 300px;">
+    <h1>Mumbai</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Nihil ad placeat saepe molestiae fuga perspiciatis voluptate
+       sit ratione! Labore cum ab eaque quae velit natus excepturi,
+       iste vitae ullam iure.</p>
+  </div>
+  
+  <div class="col-sm-4 four" >
+    <img src="img/Chennai beaches.jpg"  style="height: 300px; width: 300px;">
+    <h1>Chennai</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Nihil ad placeat saepe molestiae fuga perspiciatis voluptate
+       sit ratione! Labore cum ab eaque quae velit natus excepturi,
+       iste vitae ullam iure.</p>
+  </div>
+  
+  <div class="col-sm-4 five">
+    <img src="img/jaipur.jpg"  style="height: 300px; width: 300px;">
+    <h1>jaipur</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+      Nihil ad placeat saepe molestiae fuga perspiciatis voluptate
+       sit ratione! Labore cum ab eaque quae velit natus excepturi,
+       iste vitae ullam iure.</p>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="row2" >
+  <h1>Browse By Property Type</h1>
+  <div class="travel" style="display: flex;">
+  <div class="col-sm-3 " >
+     <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=">
+     <h3>Hotels</h3>
+    </div>
+  <div class="col-sm-3 " >
+    <img src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=">
+    <h3>Apartments</h3>
+  </div>
+  <div class="col-sm-3">
+     <img src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=">
+     <h3>Resorts</h3>
+    </div>
+  <div class="col-sm-3">
+     <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=">
+     <h3>Villas</h3>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="footer">
+<h1>savetime,savemoney!</h1>
+<p>sign up & we'll send best deals to you</p>
+<input placeholder="your email address">
+<button>subscribe</button>
+<i class="bi bi-instagram"></i>
+</body>
+</html>
